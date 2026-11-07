@@ -25,7 +25,7 @@ BoekhoudGemak is an open-source project built with passion and dedication. Want 
 
 </div>
 
-Every donation, big or small, helps keep Ivory Tower BBS alive, fund new features, and support ongoing development. Thank you for your generosity! 🙏
+Every donation, big or small, helps keep BoekhoudGemak alive, fund new features, and support ongoing development. Thank you for your generosity! 🙏
 
 ---
 
