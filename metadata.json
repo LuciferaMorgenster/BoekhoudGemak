@@ -1,0 +1,6 @@
+{
+  "name": "BoekhoudGemak - Slimme Boekhouding voor Ondernemers",
+  "description": "Volledige boekhouding en administratie app voor zzp'ers en mkb met automatische factuur- en bonnetjesscanner, real-time winst- en verliesdashboard, Belastingdienst BTW-aangifte, bankkoppelingen, 2FA en accountant-export.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
