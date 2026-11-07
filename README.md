@@ -11,6 +11,34 @@
 
 ---
 
+## 💖 Sponsor BoekhoudGemak — Slimme Boekhouding & Administratie voor Kleine Ondernemers, ZZP'ers en MKB
+
+BoekhoudGemak is an open-source project built with passion and dedication. Want to support the continued development of this project? You can!
+
+**Sponsor this project by making a donation via PayPal:**
+
+<div align="center">
+
+### ☕ [Donate via PayPal](https://paypal.me/luciferamorgenster)
+
+📧 **PayPal:** `luciferamorgenster@gmail.com`
+
+</div>
+
+Every donation, big or small, helps keep Ivory Tower BBS alive, fund new features, and support ongoing development. Thank you for your generosity! 🙏
+
+---
+
+## 📢 Ivory Tower BBS is Officially Online!
+
+**The wait is over!** After dedicated development, **Ivory Tower BBS** has officially launched and is now online and available for everyone. This is a fully-featured, offline-first Bulletin Board System — built for emergency communications, local mesh networks, amateur radio operators, and decentralized community coordination.
+
+Whether you're a SysOp looking to set up a local node, a ham radio operator in search of a reliable communication platform, or simply someone with a passion for retro computing and digital sovereignty — **Ivory Tower BBS is ready for you.**
+
+> **Ivory Tower BBS** is an authentic, offline-first Bulletin Board System engineered for emergency communications, neighborhood mesh collectives, amateur radio operators, and decentralized community coordination. Featuring a retro CRT phosphor terminal, ANSI VT100 / CP437 box-drawing rendering, zero-knowledge client-side encryption (AES-256-GCM), a Bell 202 AFSK acoustic audio coupler, APRS meteorological telemetry, and a complete SysOp administration suite.
+
+---
+
 ## 🌟 Over BoekhoudGemak
 
 **BoekhoudGemak** is een moderne, alles-in-één boekhoudkundige web- en mobiele applicatie speciaal ontworpen voor zelfstandige ondernemers (zzp'ers) en het midden- en kleinbedrijf (mkb). Het automatiseert tijdrovende administratieve taken, van het scannen van bonnetjes met Machine Learning tot het realtime berekenen en direct digitaal indienen van de periodieke omzetbelasting bij de Belastingdienst.
@@ -117,3 +145,19 @@ BoekhoudGemak slaat financiële transacties lokaal op met client-side encryptie 
 ## 📄 Licentie
 
 Gelicentieerd onder de Apache-2.0 Licentie.
+
+---
+
+<div align="center">
+
+### 💖 Support BoekhoudGemak
+
+This project is open-source and built with love.\
+Help keep the project alive and fund its continued development!
+
+**[☕ Donate via PayPal — luciferamorgenster@gmail.com](https://paypal.me/luciferamorgenster)**
+
+Thank you for your support! 🙏
+
+</div>
+
