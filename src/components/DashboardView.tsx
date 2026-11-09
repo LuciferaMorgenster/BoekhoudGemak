@@ -24,6 +24,7 @@ import {
   VatQuarterReport 
 } from '../types';
 import { translations } from '../translations';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface DashboardViewProps {
   language: Language;
@@ -103,6 +104,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
         {/* Action quick links */}
         <div className="flex items-center gap-2">
+          <PWAInstallButton language={language} />
           <button
             onClick={() => onNavigate('invoices')}
             className="px-3 py-1.5 text-xs font-medium text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors whitespace-nowrap"

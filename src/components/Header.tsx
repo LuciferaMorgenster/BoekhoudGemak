@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../translations';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   currentView: string;
@@ -192,6 +193,9 @@ export const Header: React.FC<HeaderProps> = ({
             <ShieldCheck className="w-4 h-4" />
           </button>
         </div>
+
+        {/* In-App PWA Install Button */}
+        <PWAInstallButton language={language} compact />
 
         {/* Primary CTA Button: Scan Bon */}
         <button

@@ -1,9 +1,14 @@
 # BoekhoudGemak 📊💼
 > **Slimme Boekhouding & Administratie voor Kleine Ondernemers, ZZP'ers en MKB**
+> *Nu volledig beschikbaar als Progressive Web App (PWA) met offline ondersteuning en in-app installatie!*
+
+🌐 **Direct online gebruiken**: [**https://boekhoudgemak.lucifera.eu**](https://boekhoudgemak.lucifera.eu)
 
 ![BoekhoudGemak Cover Banner](./src/assets/images/boekhoudgemak_cover_1794072894089.jpg)
 
+[![Live Versie](https://img.shields.io/badge/Online%20Versie-boekhoudgemak.lucifera.eu-10b981?style=flat&logo=googlechrome&logoColor=white)](https://boekhoudgemak.lucifera.eu)
 [![Status](https://img.shields.io/badge/Status-Actief%20%26%20Productie-emerald)]()
+[![PWA](https://img.shields.io/badge/PWA-Installable%20%26%20Offline%20Ready-10b981)]()
 [![AVG/GDPR](https://img.shields.io/badge/AVG%2FGDPR-Conform-blue)]()
 [![Belastingdienst](https://img.shields.io/badge/Belastingdienst-BTW%20Q1--Q4%20%26%20Digipoort-orange)]()
 [![PSD2](https://img.shields.io/badge/Bankkoppeling-ING%20|%20Rabo%20|%20Bunq%20|%20ABN-purple)]()
@@ -11,27 +16,32 @@
 
 ---
 
-## 💖 Sponsor BoekhoudGemak — Slimme Boekhouding & Administratie voor Kleine Ondernemers, ZZP'ers en MKB
-
-BoekhoudGemak is an open-source project built with passion and dedication. Want to support the continued development of this project? You can!
-
-**Sponsor this project by making a donation via PayPal:**
-
-<div align="center">
-
-### ☕ [Donate via PayPal](https://paypal.me/luciferamorgenster)
-
-📧 **PayPal:** `luciferamorgenster@gmail.com`
-
-</div>
-
-Every donation, big or small, helps keep BoekhoudGemak alive, fund new features, and support ongoing development. Thank you for your generosity! 🙏
-
----
+> 🚀 **Direct naar de app**: Probeer BoekhoudGemak direct uit in uw browser of installeer de applicatie op uw smartphone via [https://boekhoudgemak.lucifera.eu](https://boekhoudgemak.lucifera.eu).
 
 ## 🌟 Over BoekhoudGemak
 
 **BoekhoudGemak** is een moderne, alles-in-één boekhoudkundige web- en mobiele applicatie speciaal ontworpen voor zelfstandige ondernemers (zzp'ers) en het midden- en kleinbedrijf (mkb). Het automatiseert tijdrovende administratieve taken, van het scannen van bonnetjes met Machine Learning tot het realtime berekenen en direct digitaal indienen van de periodieke omzetbelasting bij de Belastingdienst.
+
+---
+
+## 📱 Progressive Web App (PWA) Mogelijkheden
+
+BoekhoudGemak is gebouwd als een volwaardige **Progressive Web App (PWA)** volgens de modernste standaarden:
+
+- 📲 **In-App Installatie**: Installeer de app met één klik via de **"Installeer App"** knop in de navigatiebalk of op het dashboard, zonder tussenkomst van de App Store of Google Play Store.
+- ⚡ **Standalone Native Experience**: Draait als een zelfstandige mobiele of desktop applicatie zonder browserbalken, met vloeiende animaties en een native look & feel.
+- 📴 **100% Offline Ondersteuning**: Blijf bonnen toevoegen, facturen inzien en uw cijfers raadplegen, zelfs in de trein of in gebieden met slecht bereik. Wijzigingen worden lokaal gebufferd en automatisch gesynchroniseerd zodra de verbinding herstelt.
+- 🚀 **Service Worker Pre-caching (Workbox)**: Alle assets, interfaces en Google Fonts worden lokaal gecachet voor bliksemsnelle laadtijden (&lt; 0.5s).
+- 🧭 **App Shortcuts**: Snelle acties direct vanaf het beginscherm van uw smartphone:
+  - *Bon Scannen* (direct de camera openen)
+  - *BTW-Aangifte* (direct naar de kwartaalaangifte)
+  - *Winst & Verlies* (direct financieel overzicht)
+- 📐 **Volledige Icoonenset**: Inclusief 192x192px, 512x512px, Android Maskable iconen met safe-zone padding en `apple-touch-icon.png` voor iOS Safari.
+
+### Installatiegids per platform
+1. **Android (Chrome / Brave / Edge)**: Tik op de in-app knop **"Installeer App"** of kies in het browsermenu voor *"App installeren"*.
+2. **iPhone / iPad (iOS Safari)**: Tik op het deelicoon (vierkantje met pijl omhoog) en kies **"Zet op beginscherm"**.
+3. **Windows / macOS (Chrome / Edge)**: Klik op het installatie-icoon rechts in de adresbalk of gebruik de in-app installeerknop.
 
 ---
 
@@ -80,10 +90,9 @@ Every donation, big or small, helps keep BoekhoudGemak alive, fund new features,
   - Gedeponeerde Verwerkersovereenkomst (DPA).
 - **Versleutelde Cloud Back-up (AES-256)**: Automatische cloud synchronisatie met Google Drive, Dropbox en OneDrive.
 
-### 7. 🌐 Toegankelijkheid, Donkere Modus & Offline Modus
-- **Offline Modus**: Blijf ononderbroken werken zonder internet. Gegevens worden veilig in de lokale opslag bewaard en automatisch gesynchroniseerd zodra de verbinding hersteld is.
+### 7. 🌐 Toegankelijkheid, Donkere Modus & Meertaligheid
 - **Donkere & Lichte Modus**: Volledig geoptimaliseerd contrast voor optimaal leescomfort.
-- **Toegankelijkheid (A11y)**: Instelbare lettergroottes (normaal, groot, extra groot) en Hoog Contrast modus voor visueel beperkten.
+- **Toegankelijkheidsbalk (A11y)**: Instelbare lettergroottes (normaal, groot, extra groot) en Hoog Contrast modus voor visueel beperkten.
 - **Tweetalig**: Schakel met één klik tussen Nederlands (NL) en Engels (EN).
 - **Google Agenda Koppeling**: Voeg fiscale deadlines direct toe aan uw Google Agenda.
 
@@ -92,6 +101,7 @@ Every donation, big or small, helps keep BoekhoudGemak alive, fund new features,
 ## 🛠️ Technische Architectuur
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS v4, Lucide Icons, Canvas Confetti.
+- **PWA Tooling**: `vite-plugin-pwa`, Workbox precaching, Service Worker lifecycle management, Web App Manifest.
 - **Backend**: Node.js, Express, TSX.
 - **AI & OCR Engine**: Google Gemini API (`@google/genai` met `gemini-3.8-flash`) voor factuuranalyse en Machine Learning transactiecategorisering.
 - **Offline Opslag**: Browser LocalStorage met snapshot encryptie en synchronisatiewachtrij.
@@ -117,7 +127,7 @@ Every donation, big or small, helps keep BoekhoudGemak alive, fund new features,
    PORT=3000
    ```
 
-3. Start de ontwikkelserver:
+3. Start de ontwikkelserver (met PWA service worker actief in dev):
    ```bash
    npm run dev
    ```
@@ -135,19 +145,3 @@ BoekhoudGemak slaat financiële transacties lokaal op met client-side encryptie 
 ## 📄 Licentie
 
 Gelicentieerd onder de Apache-2.0 Licentie.
-
----
-
-<div align="center">
-
-### 💖 Support BoekhoudGemak
-
-This project is open-source and built with love.\
-Help keep the project alive and fund its continued development!
-
-**[☕ Donate via PayPal — luciferamorgenster@gmail.com](https://paypal.me/luciferamorgenster)**
-
-Thank you for your support! 🙏
-
-</div>
-

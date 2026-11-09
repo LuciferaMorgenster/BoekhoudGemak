@@ -1,0 +1,56 @@
+{
+  "id": "/",
+  "name": "BoekhoudGemak - Slimme Boekhouding voor Ondernemers",
+  "short_name": "Boekhouding",
+  "description": "Volledige boekhouding en administratie app voor zzp'ers en mkb met automatische factuur- en bonnetjesscanner, real-time winst- en verliesdashboard, Belastingdienst BTW-aangifte en bankkoppelingen.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bon Scannen",
+      "short_name": "Scannen",
+      "description": "Scan direct een nieuw bonnetje of factuur",
+      "url": "/?action=scan",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "BTW-Aangifte",
+      "short_name": "BTW",
+      "description": "Bekijk en verzend de omzetbelastingaangifte",
+      "url": "/?view=tax",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Winst & Verlies",
+      "short_name": "P&L",
+      "description": "Realtime inzicht in winst, kosten en cashflow",
+      "url": "/?view=dashboard",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
